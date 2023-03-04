@@ -1,0 +1,7 @@
+spring:
+  config:
+    import: 'consul:'
+  cloud:
+    consul:
+      enabled: true
+      host: ${CONSUL_HOST:consul}
